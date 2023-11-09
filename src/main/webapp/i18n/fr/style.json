@@ -1,0 +1,25 @@
+{
+  "jhipsterBookApp": {
+    "style": {
+      "home": {
+        "title": "Styles",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Style",
+        "createOrEditLabel": "Créer ou éditer un Style",
+        "notFound": "Aucun Style trouvé"
+      },
+      "created": "Un nouveau Style a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Style avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Style avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Style {{ id }} ?"
+      },
+      "detail": {
+        "title": "Style"
+      },
+      "id": "ID",
+      "styleOfText": "Style Of Text",
+      "book": "Book"
+    }
+  }
+}

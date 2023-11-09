@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109093356",
+  "dto": "mapstruct",
+  "entityTableName": "style",
+  "fields": [
+    {
+      "fieldName": "styleOfText",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Style",
+  "relationships": [
+    {
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "style",
+      "relationshipName": "book",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
