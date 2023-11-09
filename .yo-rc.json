@@ -15,7 +15,7 @@
     "enableHibernateCache": true,
     "enableSwaggerCodegen": false,
     "enableTranslation": true,
-    "entities": ["Book", "Author", "Edition", "Style"],
+    "entities": ["Book", "StyleDeux", "Author", "Edition", "Style"],
     "gitCompany": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "8.0.0",
