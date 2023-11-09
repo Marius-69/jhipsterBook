@@ -1,0 +1,32 @@
+entity Book {
+	title String
+}
+
+entity Author {
+	nameAuthor String
+    surnameAuthor String
+}
+
+entity Edition {
+	dayOfPublication Long
+    monthOfPublication String
+}
+
+entity Style {
+	styleOfText String
+}
+
+relationship OneToOne {
+	Book to Author
+}
+
+relationship OneToOne {
+	Book to Edition
+}
+
+relationship OneToMany {
+	Book to Style
+}
+
+dto Book, Author, Edition, Style  with mapstruct
+service Book, Author, Edition, Style with serviceImpl
