@@ -11,7 +11,8 @@
         "book": "Book",
         "author": "Author",
         "edition": "Edition",
-        "style": "Style"
+        "style": "Style",
+        "styleDeux": "Style Deux"
       },
       "account": {
         "main": "Compte",

@@ -1,0 +1,24 @@
+{
+  "jhipsterBookApp": {
+    "styleDeux": {
+      "home": {
+        "title": "StyleDeuxes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Style Deux",
+        "createOrEditLabel": "Créer ou éditer un Style Deux",
+        "notFound": "Aucun Style Deux trouvé"
+      },
+      "created": "Un nouveau Style Deux a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Style Deux avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Style Deux avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Style Deux {{ id }} ?"
+      },
+      "detail": {
+        "title": "Style Deux"
+      },
+      "id": "ID",
+      "styleOfTextDeux": "Style Of Text Deux"
+    }
+  }
+}

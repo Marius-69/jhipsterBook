@@ -24,6 +24,11 @@ import { RouterModule } from '@angular/router';
         data: { pageTitle: 'jhipsterBookApp.style.home.title' },
         loadChildren: () => import('./style/style.routes'),
       },
+      {
+        path: 'style-deux',
+        data: { pageTitle: 'jhipsterBookApp.styleDeux.home.title' },
+        loadChildren: () => import('./style-deux/style-deux.routes'),
+      },
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ]),
   ],

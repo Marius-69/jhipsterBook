@@ -16,6 +16,10 @@ entity Style {
 	styleOfText String
 }
 
+entity StyleDeux {
+	styleOfTextDeux String
+}
+
 relationship OneToOne {
 	Book to Author
 }

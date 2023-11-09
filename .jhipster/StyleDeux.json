@@ -1,0 +1,14 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109093056",
+  "entityTableName": "style_deux",
+  "fields": [
+    {
+      "fieldName": "styleOfTextDeux",
+      "fieldType": "String"
+    }
+  ],
+  "name": "StyleDeux",
+  "relationships": [],
+  "searchEngine": "no"
+}
