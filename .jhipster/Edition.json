@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20231109093256",
+  "dto": "mapstruct",
+  "entityTableName": "edition",
+  "fields": [
+    {
+      "fieldName": "dayOfPublication",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "monthOfPublication",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Edition",
+  "relationships": [
+    {
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "edition",
+      "relationshipName": "book",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

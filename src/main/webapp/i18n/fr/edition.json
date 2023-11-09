@@ -1,0 +1,26 @@
+{
+  "jhipsterBookApp": {
+    "edition": {
+      "home": {
+        "title": "Editions",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Edition",
+        "createOrEditLabel": "Créer ou éditer un Edition",
+        "notFound": "Aucun Edition trouvé"
+      },
+      "created": "Un nouveau Edition a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Edition avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Edition avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Edition {{ id }} ?"
+      },
+      "detail": {
+        "title": "Edition"
+      },
+      "id": "ID",
+      "dayOfPublication": "Day Of Publication",
+      "monthOfPublication": "Month Of Publication",
+      "book": "Book"
+    }
+  }
+}
